@@ -5,4 +5,10 @@ import { Component } from "@angular/core";
   templateUrl: './post-create.component.html'
 })
 
-export class PostCreateComponent {}
+export class PostCreateComponent {
+  myMessage = "POP";
+
+  AddText(){
+
+  }
+}
