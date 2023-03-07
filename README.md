@@ -2,4 +2,4 @@
 
 This is a class demo from using angular
 
-lecture 3 19:36
+lecture 4 00:00
