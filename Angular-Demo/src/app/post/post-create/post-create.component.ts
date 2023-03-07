@@ -9,6 +9,6 @@ export class PostCreateComponent {
   myMessage = "POP";
 
   AddText(){
-
+    this.myMessage = "Button pushed";
   }
 }
