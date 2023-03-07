@@ -6,9 +6,9 @@ import { Component } from "@angular/core";
 })
 
 export class PostCreateComponent {
-  myMessage = "POP";
+  printPost = "NO CONTENT";
 
-  AddText(){
-    this.myMessage = "Button pushed";
+  AddText(myMessage: HTMLTextAreaElement){
+    this.printPost = myMessage.value;
   }
 }
