@@ -4,5 +4,5 @@
 
 <textarea cols="30" rows="10" [value]="submitPost" #submitPost></textarea>
 
-<button (click)="AddText(submitPost)">Popcorn machine</button>
+<button mat-raised-button color="primary" (click)="AddText(submitPost)">Popcorn machine</button>
 <p>{{printPost}}</p>
