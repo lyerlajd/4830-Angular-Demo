@@ -11,6 +11,9 @@ import { HeaderComponent } from './header/header.component';
 // materials components
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule}  from '@angular/material/input';
 
 @NgModule({
   // for self-made components
@@ -24,7 +27,10 @@ import { MatButtonModule } from '@angular/material/button';
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    FormsModule
+    FormsModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

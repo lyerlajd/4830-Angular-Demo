@@ -1,8 +1,13 @@
-<h1>Bababooey</h1>
+<h1>In-Class App</h1>
 
-<hr>
+<br>
 
-<textarea cols="30" rows="10" [value]="submitPost" #submitPost></textarea>
-<textarea cols="10" rows="10" [(ngModel)]="twoWayBinding"></textarea>
-<button mat-raised-button color="primary" (click)="AddText(submitPost)">Popcorn machine</button>
+<mat-card>
+  <mat-form-field>
+    <textarea matInput rows="10" [(ngModel)] = "myMessage"></textarea>
+  </mat-form-field>
+</mat-card>
+
+<button mat-raised-button color="primary" (click)="AddText()">Please click me</button>
+
 <p>{{printPost}}</p>
