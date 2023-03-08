@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 import { PostCreateComponent } from './post/post-create/post-create.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { PostCreateComponent } from './post/post-create/post-create.component';
     PostCreateComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
