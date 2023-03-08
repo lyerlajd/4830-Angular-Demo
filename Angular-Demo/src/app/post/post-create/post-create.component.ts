@@ -8,8 +8,10 @@ import { Component } from "@angular/core";
 
 export class PostCreateComponent {
   printPost = "NO CONTENT";
+  twoWayBinding = '';
 
   AddText(myMessage: HTMLTextAreaElement){
     this.printPost = myMessage.value;
+    this.twoWayBinding = "fuck you randy";
   }
 }

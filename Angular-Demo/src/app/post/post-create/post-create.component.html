@@ -3,6 +3,6 @@
 <hr>
 
 <textarea cols="30" rows="10" [value]="submitPost" #submitPost></textarea>
-
+<textarea cols="10" rows="10" [(ngModel)]="twoWayBinding"></textarea>
 <button mat-raised-button color="primary" (click)="AddText(submitPost)">Popcorn machine</button>
 <p>{{printPost}}</p>
