@@ -1,13 +1,22 @@
-<h1>In-Class App</h1>
+<h1></h1>
 
-<br>
+<section id="submit-side">
+  <mat-card>
+    <mat-form-field>
+      <textarea matInput rows="10" [(ngModel)] = "myMessage"></textarea>
+    </mat-form-field>
+  </mat-card>
 
-<mat-card>
-  <mat-form-field>
-    <textarea matInput rows="10" [(ngModel)] = "myMessage"></textarea>
-  </mat-form-field>
-</mat-card>
+  <button mat-raised-button color="accent" (click)="AddText()">Save Post</button>
+</section>
 
-<button mat-raised-button color="primary" (click)="AddText()">Please click me</button>
-
-<p>{{printPost}}</p>
+<section id="post-side">
+  <mat-card>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        {{summary}}
+      </mat-expansion-panel-header>
+    <p>{{printPost}}</p>
+    </mat-expansion-panel>
+  </mat-card>
+</section>

@@ -1,0 +1,16 @@
+body {position: relative; height: 100%;}
+section {display: inline-block; width: 50%; height: 80%; position: relative; border-radius: 30px;}
+
+#submit-side {width: 48%; margin-left: 5px; background-color: rgb(103, 58, 183);}
+#post-side {float: right; margin-right: 5px; background-color: rgb(255, 193, 7);}
+
+button {width: 50%; position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; margin-top: 30px;}
+
+mat-expansion-panel
+{
+  margin-top: 30px;
+}
+mat-expansion-panel:hover
+{
+  background-color: rgb(255, 193, 7, 0.25);
+}

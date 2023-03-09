@@ -9,8 +9,10 @@ import { Component } from "@angular/core";
 export class PostCreateComponent {
   printPost = '';
   myMessage = '';
+  summary = '';
 
   AddText(){
+    this.summary = this.myMessage.slice(0, 30) + "...";
     this.printPost = this.myMessage;
   }
 }
